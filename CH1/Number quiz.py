@@ -8,9 +8,9 @@ print("이 숫자는 무엇일까요?")
 while 1:
     N = int(input("예상 숫자: "))
 
-    if 10 > N and N > a:
+    if 11 > N and N > a:
         print("정답보다 큽니다. 다시 입력하세요")
-    elif 10 > N and N < a:
+    elif 11 > N and N < a:
         print("정답보다 작습니다. 다시 입력하세요.")
     elif a == N:
         print("정답입니다!")
